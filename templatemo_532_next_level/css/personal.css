@@ -1,0 +1,30 @@
+h3:hover
+{
+    color: red;
+}
+
+h1
+{
+    animation-name: slideIn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes slideIn
+{
+    from{
+        margin-left: 10%;
+        width: 100%;
+        font-size: 10px;
+
+    }
+    to
+    {
+        margin-left: 50%;
+        width: 50%;
+        font-size: 25Npx;
+        color: black;
+    }
+}
