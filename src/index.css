@@ -331,6 +331,10 @@ img {
   background: #d9e0e8;
 }
 
+.work-card--clay {
+  background: #e2d5c8;
+}
+
 .work-card__title {
   margin: 0 0 0.75rem;
   font-family: var(--font-display);

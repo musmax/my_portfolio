@@ -91,12 +91,21 @@ export const projects = [
     links: [{ label: 'Visit platform', href: 'https://entwuit.com/' }],
   },
   {
+    id: 'mydockethub',
+    title: 'myDockethub',
+    description:
+      'Nigerian property platform for buying and selling land and homes, booking consultants (lawyers, surveyors, architects), MarketHub materials and trades, and lawyer workflows for clients and cases.',
+    tags: ['PropTech', 'Marketplace', 'Consultants'],
+    tone: 'mist' as const,
+    links: [{ label: 'Visit platform', href: 'https://mydockethub.com/' }],
+  },
+  {
     id: 'fodus',
     title: 'Fodus Foods (UK)',
     description:
       'Ecommerce storefront for a homemade food brand — product catalog, cart checkout, and delivery flows for freshly baked goods and Naija snacks.',
     tags: ['E-commerce', 'JavaScript', 'Express.js', 'React', 'Apple Pay', 'Aiven Cloud'],
-    tone: 'mist' as const,
+    tone: 'clay' as const,
     links: [{ label: 'Visit platform', href: 'https://fodusfood.netlify.app/' }],
   },
 ];
